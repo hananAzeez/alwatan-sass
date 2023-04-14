@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap");
+@import "base";
+
+// NAVIGATION
+.header {
+  background-color: $color-bg-light;
+  &__content {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    .logo {
+      font-family: "MonteCarlo", cursive;
+      color: $color-primary-dark;
+      font-size: 32px;
+    }
+    .main-nav {
+      &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3.2rem;
+        .main-nav-link {
+          font-family: "Alegreya", serif;
+          font-size: 1.6rem;
+          color: $color-primary-dark;
+        }
+      }
+    }
+    .nav-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2.4rem;
+      button {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+}
