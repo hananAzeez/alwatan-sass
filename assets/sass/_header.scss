@@ -56,6 +56,10 @@
           font-size: 1.6rem;
           letter-spacing: 0.09em;
           color: $color-primary-dark;
+
+          &:hover {
+            color: darken($color-primary-dark, 15%);
+          }
         }
       }
     }
